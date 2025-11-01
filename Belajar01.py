@@ -3,7 +3,7 @@
 import os,sys,time
 
 #pembersih texs
-def bersh():
+def bersih():
     os.system("clear")
  
 #tampilan
@@ -45,10 +45,12 @@ def menu():
          os.system(" pkg install termux-setup-storage")
          os.system(" pkg install wget ")
          os.system(" wget -O install-nethunter-termux https://offs.cs/2MceZWr")
-         os.system(" ./install-nethuntet-termux")
+         os.system(" ./install-nethunter-termux")
          print("\033[1;32m===================================================================")
          
-         menu()
+        
+    
+    menu()
          
     
       
